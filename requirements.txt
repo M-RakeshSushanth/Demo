@@ -1,19 +1,13 @@
-# Web Framework & Production Server
 fastapi==0.109.0
 uvicorn[standard]==0.27.0
 gunicorn==21.2.0
 python-multipart==0.0.20
-
-# Data Science Stack (Compatible with Python 3.10)
+jinja2==3.1.2
 numpy==1.26.4
-pandas==2.0.3
 scipy==1.10.1
-
-# Deep Learning (CPU only to avoid Render memory crashes)
 tensorflow-cpu==2.15.0
 keras==2.15.0
-
-# Image Processing & Utilities
-h5py==3.10.0
+reportlab==4.0.4
 Pillow==10.0.0
+h5py==3.10.0
 setuptools==69.0.3
